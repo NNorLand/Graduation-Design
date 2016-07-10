@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document 水资源：班宏伟*/
+/**{ border:1px solid #03F;margin:0;}*/
+*{ margin:0; padding:0;}
+body, html{width: 100%;height: 100%;overflow: hidden; margin:0;}
+#allmap { position:absolute; top:10px; left:7px; height:596px; width:1200px; overflow: hidden; margin:0; border:2px solid #CCC; z-index:1;}
+
+
+/*.left{ position:absolute; height:100%; width:200px;background:#F90;}*/
+
+
+
+
+
+
+#map_manager{ position:absolute; left:850px; top:30px; height:36px; width:255px; background:#0CF; z-index:2; border-left:1px solid #D2D2D2;
+border-top:1px solid #D2D2D2;border-bottom:1px solid #D2D2D2;}
+#map_manager img{height:36px; border-right:1px solid #D2D2D2; cursor:pointer;}
+#map_manager > div{ height:36px; width:51px; float:left;}
+.btu_hide{ display:none;}
+
+#research{ position:absolute; background:#FC0; top:30px; height:40px; width:260px; left:550px; z-index:2; display:none}
+#research #lng{ width:80px; height:20px; margin:8px 0 8px 8px; line-height:20px;}
+#research #lat{ width:80px; height:20px; margin:8px 0 8px 8px; line-height:20px;}
+#research #sub{ position:absolute; width:50px; height:26px; margin:8px 0 8px 8px;}
+
+
+.markerBlock{ positon:absolute; height:500px; width:300px; left:400px;}
+
+.newMarkerBlock{ position:relative; background:#F00; top:15px; height:140px; width:220px;}
+.newMarkerTitle{ position:absolute; top:6px; width:200px; left:10px; text-align:center; color:#FFF;}
+.newMarkerConfirm{ position:absolute; top:30px; width:60px; height:30px; left:80px; text-align:center; background:#FFF; font-size:14px; line-height:30px; cursor:pointer}
+.newMarkerContent{ position:absolute; height:40px; width:180px; left:20px; top:70px; border:1px solid #FFF; overflow:hidden;}
+.newMarkerBlock img{ height:30px;cursor:pointer;}
+.turn_left{ position:absolute; left:40px; top:30px; height:30px; width:30px; color:#69F;}
+.turn_right{position:absolute; left:150px; top:30px;  height:30px; width:30px; color:#69F;}
+.newMarkerContent ul{ position:absolute; list-style:none; width:2000px;height:40px; font-size:24px; color:#FFF;}
+.newMarkerContent li{ width:180px; float:left; text-align:center; line-height:40px; height:40px;}
+
+
+
+
+
+.moreblock{ position:absolute; background:#FFF; display:none; border:1px solid #C00; height:400px; width:300px; top:100px; left:850px; z-index:3;}
+.more_content{ position:absolute; top:30px; border:1px solid #C00; width:300px;}
+.more_title{ position:absolute; width:300px; text-align:center;border:1px solid #039; height:30px; line-height:30px;}
+.close{ position:absolute; left:275px; top:8px; cursor:pointer;}
+.spot2,.spot3,.spot4{ display:none; border:1px solid #039; height:360px; width:300px;}
+.spot1{ border:1px solid #039; height:360px; width:300px;}
+.choose_spot1,.choose_spot2,.choose_spot3{ display:none; border:1px solid #039; height:30px; width:300px; font-size:14px; line-height:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+#title{ font-size:24px;  text-align:center; color:#69F; font-family:黑体;}
+.content{ margin-top:10px; text-align:center; color:#F66; }
+#btn_test1,#btn_test2,#btn_test3,#btn_test4,#btn_test5,#btn_test6,#btn_test7,.btn_test8{ width:125px; margin:5px 0; height:25px; color:#F66; }
